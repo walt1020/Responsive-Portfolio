@@ -1,0 +1,352 @@
+	
+
+#headerContainer {
+	background-color: white;
+	width: 100%;
+	border-bottom: 2px solid #ccc;
+	padding: 0px 40px;
+	box-sizing: border-box;
+}
+
+#widthContainer {
+	width: 959px;
+}
+
+#mainHeader {
+	background-color: #4aaaa5;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	border: 30px;
+	clear: right;
+	display: inline-block;
+	padding-left: 30px;
+	padding-right: 30px;
+/*	margin-left: 200px;*/
+}
+
+#navBar {
+	float:right;
+	clear: both;
+	position: relative;
+	margin-top: 40px;
+	word-spacing: 3px;
+	font-size: 24px;
+	border-spacing: 2px;
+	/*margin-right: 176px;*/
+	margin-right: -21px;
+}
+
+a {
+
+	text-decoration: none;
+	color: #777777;
+	padding-right: 13px;
+}
+
+#connectWithMe a {
+	padding-right: 23px;
+}
+
+#about {
+	border-right: 1px  #777777 solid; 
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+#portfolio {
+	border-right: 1px #777777 solid;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#contact {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.background {
+	/*background-image: url("../images/subtlepattern.png");*/
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.background::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+#textContainer {
+	padding: 0 40px;
+	padding-top: 35px;
+	border-bottom-style: solid;
+	border-right-color: #4aaaa5;
+	border-width: 12.5px;
+	width: 650px;
+}
+
+
+#infoSection {
+	float: left;
+	width: 638px;
+	height: 474px;
+	background: #ffffff;
+	padding: 0 15px;
+	margin-right: 20px;
+}
+
+#aboutMe {
+	padding-bottom: 14px;
+	border-bottom-color: #cccccc;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	color: #4aaaa5
+}
+
+#profilePic {
+	float: left;
+	padding-right: 4%;
+	padding-bottom: 3px;
+}
+
+.infoText {
+	font-size: 18px;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#floated {
+	clear: both;
+}
+
+#connectWithMe {
+	float: left;
+	height: 189px;
+	width: 270px;
+	background-color: white;
+	position bottom: 363px;
+	/*position: relative;*/
+	color: #4aaaa5;
+}
+
+
+
+#copyright {
+	position: fixed;
+	background-color: #666666;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: #4aaaa5;
+}
+
+.clearBoth {
+	clear: both;
+}
+
+div {
+	width: 165px;
+	margin: 0 auto;
+}
+
+
+h2 {
+	text-align: center;
+    margin: 12px;
+    border-bottom: 1px solid #cccccc;
+    padding-right: 9px;
+    padding-bottom: 3px;
+    font-family: 'Georgia', Times, Times, serif;
+}
+
+#copyrightText {
+	text-align: center;
+	position: relative;
+	color: white;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+h1 {
+	 font-family: 'Georgia', Times, Times, serif;
+}
+
+body {
+background-image: url(../images/subtlepattern.png);
+margin: 0px;
+}
+
+
+@media screen and (max-width: 980px) {
+	
+	#infoSection {
+		width: 279px;
+		margin-left: 84px;
+		overflow: auto;
+		padding-bottom: 25px;
+	}		
+
+	#connectWithMe {
+		float: left;
+	   /* height: 189px;*/
+	    width: 177px;
+	    background-color: white;
+	    color: #4aaaa5;
+	    margin-left: 3px;
+	}
+
+	#icons {
+		width: 160px;
+	    margin-left: 17px;
+	}
+
+	#headerContainer {
+		width: 100%;
+	}
+
+	#mainHeader {
+		margin-left: 53px;
+		width: 165px;
+	}
+
+	#copyRight {
+		width: 100%;
+	}
+
+	#copyRightText {
+		width: 100%;
+	}
+
+	#body {
+		width: 650px;
+	}
+
+	.infoText {
+		/*clear: both;*/
+		color: #777777;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		text-align: left;
+		font-size: 15px;
+		margin-left: 20px;
+		margin-right: 42px;
+	}
+
+	#profilePic {
+		float: left;
+	    padding-right: 19px;
+	    padding-bottom: 13px;
+	    width: 237px;
+	    margin-left: 20px;
+	}
+
+	#aboutMe {
+	    padding-bottom: 14px;
+	    border-bottom-color: #cccccc;
+	    border-bottom-style: solid;
+	    border-bottom-width: 2px;
+	    color: #4aaaa5;
+	    margin-left: 19px;
+	    margin-right: 20px;
+	    font-size: 19px;
+	}
+
+	h2 {
+		font-size: 14px;
+		text-align: center;
+	    margin-top: 15px;
+	    margin-bottom: 17px;
+	    margin-left: 17px;
+	    margin-right: 17px;
+	    border-bottom: 1px solid #cccccc;
+	    padding-right: 8px;
+	    padding-bottom: 8px;
+	    font-family: 'Georgia', Times, Times, serif;
+	}
+
+	#navBar {
+		float: right;
+	    clear: both;
+	    position: relative;
+	    margin-top: 52px;
+	    word-spacing: 3px;
+	    font-size: 14px;
+	    border-spacing: 0px;
+	    margin-right: 381px;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+	#connectWithMe {
+		/*float: left;*/
+	   /* height: 189px;*/
+	    width: 768px;
+	    background-color: white;
+	    color: #4aaaa5;
+	    margin-left: 115px;
+	}
+
+	#infoSection {
+		width: 768px;
+		height: 369px;
+		background: #ffffff;
+		padding: 0 15px;
+		margin-right: 20px;
+		margin-bottom: 33px;
+	}
+
+	#profilePic {
+		float: left;
+	}
+	
+	.infoText {
+	    color: #777777;
+	    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	    text-align: left;
+	    font-size: 15px;
+	    margin-left: 20px;
+	    margin-right: 42px;
+	}
+
+	#icons {
+		width: 768px;
+		margin: 0, auto;
+	}
+
+	#widthContainer {
+		width: 768px;
+	}
+
+	#mainHeader {
+		margin-left: 40px;
+		width: 180px;
+	}
+
+	#headerContainer {
+		width: 100%;
+	}
+
+	
+	#navBar {
+		float: right;
+	    clear: both;
+	    position: relative;
+	    margin-top: 39px;
+	    word-spacing: 3px;
+	    font-size: 14px;
+	    border-spacing: 0px;
+	    margin-right: 92px;
+	}
+
+
+
+}
+
+
+@media screen and (max-width: 640px) {
+	
+}
+
+
