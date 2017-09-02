@@ -226,3 +226,283 @@ input {
 	box-sizing: border-box;
 
 }
+
+
+@media screen and (max-width: 980px) {
+	
+	#infoSection {
+		width: 279px;
+		margin-left: 84px;
+		overflow: auto;
+		padding-bottom: 25px;
+	}		
+
+	#connectWithMe {
+		float: left;
+	   /* height: 189px;*/
+	    width: 177px;
+	    background-color: white;
+	    color: #4aaaa5;
+	    width: 26%;
+	    
+	}
+
+	#icons {
+		margin-left: 22%;
+	}
+
+	#headerContainer {
+		width: 100%;
+	}
+
+	#mainHeader {
+		margin-left: 11%;
+		width: 185px;
+	}
+
+	#copyRight {
+		width: 100%;
+	}
+
+	#copyRightText {
+		width: 100%;
+	}
+
+	#body {
+		width: 650px;
+	}
+
+	.infoText {
+		/*clear: both;*/
+		color: #777777;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		text-align: left;
+		font-size: 15px;
+		margin-left: 20px;
+		margin-right: 42px;
+	}
+
+	#profilePic {
+		float: left;
+	    padding-right: 19px;
+	    padding-bottom: 13px;
+	    width: 237px;
+	    margin-left: 20px;
+	}
+
+	#aboutMe {
+	    padding-bottom: 14px;
+	    border-bottom-color: #cccccc;
+	    border-bottom-style: solid;
+	    border-bottom-width: 2px;
+	    color: #4aaaa5;
+	    margin-left: 19px;
+	    margin-right: 20px;
+	    font-size: 19px;
+	}
+
+	h2 {
+		font-size: 14px;
+		text-align: center;
+	    margin-top: 15px;
+	    margin-bottom: 17px;
+	    margin-left: 17px;
+	    margin-right: 17px;
+	    border-bottom: 1px solid #cccccc;
+	    padding-right: 8px;
+	    padding-bottom: 8px;
+	    font-family: 'Georgia', Times, Times, serif;
+	}
+
+	#navBar {
+	    margin-top: 52px;
+	    word-spacing: 3px;
+	    font-size: 14px;
+	    border-spacing: 0px;
+	    margin-right: 32%;
+	}
+
+	.background {
+		width: 100%;
+	    margin-left: 6%;
+	    margin-top: 20px;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+	
+	#connectWithMe {
+		width: 89%;
+	    background-color: white;
+	    color: #4aaaa5;
+	    margin-left: 5%;
+	    margin-bottom: 5%;
+	}
+
+	#infoSection {
+		width: 85%;
+	    height: 369px;
+	    background: #ffffff;
+	    padding: 0 15px;
+	    margin-right: 17px;
+	    margin-bottom: 33px;
+	    margin-left: 5%;
+	}
+
+	#profilePic {
+		float: left;
+	}
+	
+	.infoText {
+	    color: #777777;
+	    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	    text-align: left;
+	    font-size: 15px;
+	    margin-left: 20px;
+	    margin-right: 42px;
+	}
+
+	#icons {
+		width: 175px;
+		margin-left: 38%;
+	}
+
+	#widthContainer {
+		width: 768px;
+	}
+
+	#mainHeader {
+		width: 185px;
+	    margin-left: 0%;
+	    padding-right: 123px;
+	    text-align: center;
+	}
+
+	#headerContainer {
+		width: 100%;
+	}
+
+	
+	#navBar {
+	    position: relative;
+	    margin-top: 39px;
+	    word-spacing: 3px;
+	    font-size: 14px;
+	    border-spacing: 0px;
+	    margin-right: 0%;
+	}
+
+	.background {
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	.clearfix {
+  		overflow: auto;
+  		zoom: 1;
+	}
+
+
+}
+
+
+@media screen and (max-width: 640px) {
+
+	#connectWithMe {
+		width: 90%;
+	    background-color: white;
+	    color: #4aaaa5;
+	    margin-left: -5%;
+	    padding-bottom: 42px;
+	}
+
+	#infoSection {
+		width: 85%;
+	    height: 369px;
+	    background: #ffffff;
+	    padding: 0 15px;
+	    margin-right: 17px;
+	    margin-bottom: 33px;
+	    margin-left: -5%;
+	}
+
+	#profilePic {
+		float: left;
+	}
+	
+	.infoText {
+	    color: #777777;
+	    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	    text-align: left;
+	    font-size: 15px;
+	    margin-left: 20px;
+	    margin-right: 42px;
+	}
+
+	#icons {
+	    margin-left: 35%;
+    	padding-top: 2%;
+    	width: 179px;
+	}
+
+	#widthContainer {
+		width: 768px;
+	}
+
+	#mainHeader {
+
+		width: 100%;
+	    padding-right: 65px;
+	    text-align: center;
+	    position: static;
+
+	}
+
+	#headerContainer {
+		width: 100%;
+		padding-right: 0%;
+		padding-left: 0%;
+	}
+
+	
+	#navBar {
+		position: relative; 
+	    margin-top: 39px;
+	    word-spacing: 100px;
+	    font-size: 24px;
+	    /* border-spacing: 0px; */
+	    margin-left: 10%;
+	    /* float: none; */
+	    width: 100%;
+	    padding-top: 2%;
+	    padding-bottom: 9%;
+	    /* margin: 25px auto; */
+	    float: none;
+	    margin-left: 12%;
+	}
+
+	.background {
+		width: 100%;
+		margin-left: 10%;
+	}
+
+	.background::after {
+    /* content: ""; */
+    /* display: block; */
+    /* clear: both; */
+}
+
+	.clearfix {
+  		overflow: auto;
+  		zoom: 1;
+	}
+
+	#portfolio {
+		border-right:none;
+	}
+	
+	#about {
+		border-right:none;
+	}
+}

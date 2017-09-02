@@ -209,7 +209,7 @@ margin: 0px;
 
 	#mainHeader {
 		margin-left: 10%;
-		width: 165px;
+		width: 185px;
 	}
 
 	#copyRight {
@@ -439,11 +439,19 @@ margin: 0px;
     /* content: ""; */
     /* display: block; */
     /* clear: both; */
-}
+	}
 
 	.clearfix {
   		overflow: auto;
   		zoom: 1;
+	}
+
+	#portfolio {
+		border-right:none;
+	}
+	
+	#about {
+		border-right:none;
 	}
 	
 }
